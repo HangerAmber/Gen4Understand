@@ -1,0 +1,20 @@
+{
+  "event_id": "return-brush-001",
+  "recording_id": "recording-train-001",
+  "split": "train",
+  "actor": "right gripper",
+  "action": "place",
+  "object": "brush",
+  "pre_state": ["held-by(right gripper)", "near(cup)"],
+  "motion": "downward into basket",
+  "post_state": ["inside(basket)"],
+  "temporal_relation": "before:return-brush-002",
+  "start_s": 0.0,
+  "end_s": 5.0,
+  "source_video": "data/source.mp4",
+  "scene_id": "scene-train-001",
+  "object_instance_id": "brush-train-001",
+  "scene_objects": ["brush", "cup", "water", "basket"],
+  "unsupported_actions": ["wipe", "clean"],
+  "unsupported_intents": ["prepare to clean the cup"]
+}

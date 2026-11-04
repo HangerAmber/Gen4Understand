@@ -1,0 +1,6 @@
+{
+  "generation": {"models": ["Wan2.7", "Seedance-2.0"], "candidates_per_model": 2, "duration_seconds": 5, "resolution": "720p", "verification_fps": 16},
+  "verifier": {"components": ["sem", "anc", "phys", "tmp", "qual"], "weights": [0.35, 0.20, 0.20, 0.15, 0.10], "threshold": 0.70, "minimum_track_presence": 0.80, "calibration_events": 250, "calibration_candidates": 1000, "minimum_coverage": 0.35},
+  "hierarchy": {"require_all_children": true},
+  "level_weights": {"atom": 1.0, "act": 0.5, "sub": 0.3, "task": 0.2}
+}
